@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc46951-0f30-4f0b-9599-286c5a1fb171" name="Default Changelist" comment="" />
+    <list default="true" id="8fc46951-0f30-4f0b-9599-286c5a1fb171" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/principle3_1/scheduling.py" beforeDir="false" afterPath="$PROJECT_DIR$/principle3_1/scheduling.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/principle3_1/scheduling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="841">
+              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -74,6 +76,9 @@
       <replace>net_computing_time</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -100,22 +105,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PrinciplesOfGreenDataScienceEvaluations" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PrinciplesOfGreenDataScienceEvaluations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrinciplesOfGreenDataScienceEvaluations" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PrinciplesOfGreenDataScienceEvaluations" type="462c0819:PsiDirectoryNode" />
-              <item name="principle3_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,53 +206,13 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OPSD.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slack.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/germany_2017.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="101" column="84" selection-start-line="101" selection-start-column="84" selection-end-line="101" selection-end-column="84" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ComputeEnergySavings.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/principle3_1.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data.py" />
+    <entry file="file://$PROJECT_DIR$/OPSD.ipynb" />
+    <entry file="file://$PROJECT_DIR$/slack.jpg" />
+    <entry file="file://$PROJECT_DIR$/germany_2017.csv" />
+    <entry file="file://$PROJECT_DIR$/scheduling.py" />
+    <entry file="file://$PROJECT_DIR$/ComputeEnergySavings.ipynb" />
+    <entry file="file://$PROJECT_DIR$/principle3_1.ipynb" />
     <entry file="file://$PROJECT_DIR$/principle3_1/principle3_1.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -281,8 +231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/principle3_1/scheduling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="841">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

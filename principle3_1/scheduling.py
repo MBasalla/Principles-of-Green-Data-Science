@@ -107,4 +107,3 @@ def optimal_scheduler(net_computing_time,slack,data,start_time):
     price = np.sum(prices[:process_duration])
     end = sorted["utc_timestamp"].iloc[:process_duration].max()
     return price, end - start_time
-
