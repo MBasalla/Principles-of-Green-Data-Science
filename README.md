@@ -1,8 +1,13 @@
 # Principles-of-Green-DAta-Science
 Supplementary code to the paper "Principles of Green Data Science".
 
-This paper contains supplementory code for the Paper " Principles of Green Data Science"
-currently under review at I&M.
+This paper contains supplementary code for the journal manuscript "Principles of Green Data Science"
+currently under review at I&M. 
 
-The original dataset used for evaluating principle 3.1 can be found at
+To cite, please use the conference version with a slightly different title:
+"Principles of Green Data Mining." 
+Schneider, Johannes, Marcus Basalla, and Stefan Seidel.
+In Proceedings of the 52nd Hawaii International Conference on System Sciences. 2019.
+
+The original dataset used for evaluating Principle 3.1 can be found at
 https://data.open-power-system-data.org/time_series/2018-06-30.
