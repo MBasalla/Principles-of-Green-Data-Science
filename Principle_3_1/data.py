@@ -1,7 +1,5 @@
-import numpy as np
 import pandas as pd
-from envs.untitled.Lib.filecmp import dircmp
-from datetime import  datetime
+from datetime import datetime
 from dateutil.parser import parse
 import os
 
@@ -22,7 +20,8 @@ def load_raw_data(directory):
         print("Finished loading remote data.")
     return df
 
-def load_data_germany2017l(directory):
+
+def load_data_germany2017(directory):
     """
         Returns a pandas DataFrame containing the preprocessed and cleaned data used for computing the energy cost
         savings.
@@ -34,8 +33,8 @@ def load_data_germany2017l(directory):
     """
     # is data already locally available
     if os.path.isfile(directory + "/germany2017.csv"):
-        germany_2017 = pd.read_csv(directory + "/germany2017.csv")
-        germany_2017['utc_timestamp'] = germany_2017['utc_timestamp'].apply(lambda x: parse(x))
+        germany_2017 = pd.read_csv(directory + "/germany2017.csv", infer_datetime_format=True)
+        # germany_2017['utc_timestamp'] = germany_2017['utc_timestamp'].apply(lambda x: parse(x))
     # process raw data
     else:
         raw_data = load_raw_data(directory)
@@ -65,7 +64,8 @@ def load_data_germany2017l(directory):
         upper = price_data["DE_price_day_ahead"].quantile(.99)
         germany_2017["DE_price_day_ahead"] = germany_2017["DE_price_day_ahead"].clip(lower,upper)
         germany_2017.rename(index=str, columns={"DE_price_day_ahead": "price"}, inplace=True)
-    germany_2017.to_csv(directory + "/germany2017.csv")
+    if os.path.isdir(directory):
+        germany_2017.to_csv(directory + "/germany2017.csv")
     return germany_2017
 
 
