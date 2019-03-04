@@ -1,6 +1,5 @@
 import pandas as pd
 from datetime import datetime
-from dateutil.parser import parse
 import os
 
 
