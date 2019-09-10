@@ -32,8 +32,8 @@ def load_data_germany2017(directory):
     """
     # is data already locally available
     if os.path.isfile(directory + "/germany2017.csv"):
-        germany_2017 = pd.read_csv(directory + "/germany2017.csv", infer_datetime_format=True)
-        # germany_2017['utc_timestamp'] = germany_2017['utc_timestamp'].apply(lambda x: parse(x))
+        germany_2017 = pd.read_csv(directory + "/germany2017.csv", infer_datetime_format=True,separator=";")
+        germany_2017['utc_timestamp'] = germany_2017['utc_timestamp'].apply(lambda x: parse(x))
     # process raw data
     else:
         raw_data = load_raw_data(directory)
