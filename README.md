@@ -1,16 +1,14 @@
-# Principles-of-Green-Data-Science
-Supplementary code to the paper "Principles of Green Data Science".
+# Principles-of-Green-Data-Mining
+Supplementary code to the paper "Principles of Green Data Mining".
 
-This paper contains supplementary code for the manuscript "Principles of Green Data Science"
-currently under review at I&M journal. 
+To cite, please use the conference version:
+
+"Principles of Green Data Mining." 
+Johannes Schneider, Marcus Basalla, and Stefan Seidel.
+In Proceedings of the 52nd Hawaii International Conference on System Sciences. 2019.
+
+An extended version of the conference paper has been accepted at the journal of Business & Information Systems Engineering. 
+Its title is  "Reuse, Reduce, Support: Design Principles for Green Data Mining"
 
 More contributions are welcome!
 
-To cite, please use the conference version with a slightly different title:
-
-"Principles of Green Data Mining." 
-Schneider, Johannes, Marcus Basalla, and Stefan Seidel.
-In Proceedings of the 52nd Hawaii International Conference on System Sciences. 2019.
-
-The original dataset used for evaluating Principle 3.1 can be found at
-https://data.open-power-system-data.org/time_series/2018-06-30.
